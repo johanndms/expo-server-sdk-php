@@ -1,24 +1,26 @@
-# expo-server-sdk-php ![tests](https://github.com/ctwillie/expo-server-sdk-php/actions/workflows/tests.yml/badge.svg) [![codecov](https://codecov.io/gh/ctwillie/expo-server-sdk-php/branch/master/graph/badge.svg?token=8QO3NL131R)](https://codecov.io/gh/ctwillie/expo-server-sdk-php) ![GitHub](https://img.shields.io/github/license/ctwillie/expo-server-sdk-php?color=%2300CED1)
+# expo-server-sdk-php
 
-Server-side library for working with Expo using PHP.
+Server-side library for working with Expo using PHP - Forked from ctwillie and added PHP 8 nullable requirements.
 
-If you have any problems with the code in this repository, feel free to [open an issue](https://github.com/ctwillie/expo-server-sdk-php/issues) or make a PR!
+If you have any problems with the code in this repository, feel free to [open an issue](https://github.com/johanndms/expo-server-sdk-php/issues) or make a PR!
 
 <details open="open">
 <summary>Table of Contents</summary>
 
--   [Testing](#testing)
--   [Installation](#installation)
--   [Use Cases](#use-cases)
--   [Composing a Message](#composing-a-message)
--   [Sending a Message](#sending-a-push-notification)
--   [Channel Subscriptions](#channel-subscriptions)
--   [Expo Responses](#expo-responses)
--   [Handling Unregistered Devices](#handling-unregistered-devices)
--   [Retrieving Push Receipts](#retrieving-push-receipts)
--   [Changelog](#changelog)
--   [Contributing](#contributing)
--   [License](#license)
+-   [expo-server-sdk-php](#expo-server-sdk-php)
+    -   [Testing](#testing)
+    -   [Installation](#installation)
+    -   [Use Cases](#use-cases)
+    -   [Composing a message](#composing-a-message)
+    -   [Sending a push notification](#sending-a-push-notification)
+    -   [Channel subscriptions](#channel-subscriptions)
+    -   [Expo responses](#expo-responses)
+    -   [Handling unregistered devices](#handling-unregistered-devices)
+    -   [Retrieving push receipts](#retrieving-push-receipts)
+    -   [Changelog](#changelog)
+    -   [Contributing](#contributing)
+    -   [License](#license)
+    -   [Credits](#credits)
 
 </details>
 
@@ -35,7 +37,7 @@ composer test
 You can install the package via composer:
 
 ```bash
-composer require ctwillie/expo-server-sdk-php
+composer require johanndms/expo-server-sdk-php
 ```
 
 ## Use Cases
@@ -197,3 +199,4 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 -   [Cedric Twillie](https://github.com/ctwillie)
 -   [All Contributors](../../contributors)
+
